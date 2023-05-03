@@ -87,7 +87,9 @@ margin-left: 250px;
   display: none;
 }
 
-
+.price{
+  background-color: black;
+}
 .smallIcon{
   overflow: hidden;
     max-height: 0;
@@ -103,8 +105,20 @@ margin-left: 250px;
   color: white;
 }
 
+#main-footer{
+  margin-top: 300px;
+}
+
 #newUl li{
   list-style-type: none;
+}
+
+#loginbtn{
+  margin-top: 20px;
+}
+
+#registerbtn {
+  margin-top: 20px;
 }
 
 @media (max-width: 991px) {
