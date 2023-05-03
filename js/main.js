@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const date = new Date();
 document.querySelector('.year').innerHTML = date.getFullYear();
 
@@ -12,3 +13,14 @@ setTimeout(function() {
           this.sidebarClose();
       }
   }
+=======
+const date = new Date();
+document.querySelector('.year').innerHTML = date.getFullYear();
+
+setTimeout(function() {
+    $('#message').fadeOut('slow');
+}, 3000);
+
+document.getElementsByClassName('navbar-toggler-icon')
+
+>>>>>>> 4e111f2 (new changes)

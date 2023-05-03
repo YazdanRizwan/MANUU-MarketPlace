@@ -78,7 +78,9 @@ img {
 .imgss{
 margin-left: 250px;
 }
-
+#mobile-menu-btn {
+  display: none;
+}
 @media (max-width: 991px) {
   #showcase {
     padding-top: 4rem; }
@@ -103,4 +105,6 @@ margin-left: 250px;
   #showcase h1 {
     font-size: 30px; }
   #showcase-inner h1 {
-    font-size: 40px; } }
+    font-size: 40px; } 
+  }
+
